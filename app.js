@@ -31,6 +31,7 @@ const submitHandler = (e) => {
   }
 
   message.textContent = "Login Successful...";
+  form.reset();
 };
 
 showHideBtn.addEventListener("click", showHidePass);
